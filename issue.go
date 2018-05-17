@@ -129,7 +129,6 @@ type IssueFields struct {
 	Epic                 *Epic         `json:"epic,omitempty" structs:"epic,omitempty"`
 	Sprint               *Sprint       `json:"sprint,omitempty" structs:"sprint,omitempty"`
 	Parent               *Parent       `json:"parent,omitempty" structs:"parent,omitempty"`
-	Unknowns             tcontainer.MarshalMap
 }
 
 // MarshalJSON is a custom JSON marshal function for the IssueFields structs.
